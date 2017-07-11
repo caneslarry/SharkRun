@@ -248,10 +248,10 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         }
         
        
-        self.EatingPreload = SKAction.playSoundFileNamed("chomp-sound.aif", waitForCompletion: false)
-        self.PickCoinPreload = SKAction.playSoundFileNamed("chomp-sound.aif", waitForCompletion: false)
+        //self.EatingPreload = SKAction.playSoundFileNamed("chomp-sound.aif", waitForCompletion: false)
+        //self.PickCoinPreload = SKAction.playSoundFileNamed("chomp-sound.aif", waitForCompletion: false)
         self.ElectricDeadPreload = SKAction.playSoundFileNamed("electricDead.mp3", waitForCompletion: false)
-        self.ElectricCreatePreload = SKAction.playSoundFileNamed("electricCreate.wav", waitForCompletion: false)
+        //self.ElectricCreatePreload = SKAction.playSoundFileNamed("electricCreate.wav", waitForCompletion: false)
         self.RocketExplosionPreload = SKAction.playSoundFileNamed("RocketExplosion.wav", waitForCompletion: false)
         self.RocketCreatePreload = SKAction.playSoundFileNamed("RocketCreate.wav", waitForCompletion: false)
         self.ShieldOnPreload = SKAction.playSoundFileNamed("shieldOn.mp3", waitForCompletion: false)
@@ -913,7 +913,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
             TimerRoketAdd = Timer.scheduledTimer(timeInterval: 3.743, target: self, selector: #selector(GameScene.RoketAdd), userInfo: nil, repeats: true)
             
             
-            TimerAddShieldItem = Timer.scheduledTimer(timeInterval: 1.246, target: self, selector: #selector(GameScene.addShieldItem), userInfo: nil, repeats: true)
+            TimerAddShieldItem = Timer.scheduledTimer(timeInterval: 6.246, target: self, selector: #selector(GameScene.addShieldItem), userInfo: nil, repeats: true)
             
             // medium mode
         case 1:
