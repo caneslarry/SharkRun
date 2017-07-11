@@ -40,7 +40,7 @@ var YourLinkOnAppleStore = "https://itunes.apple.com/us/developer/jupitertechs/i
 
 var AdMob_Enabled = true
 var AdMob_ID = "ca-app-pub-6771802840325573/7685692915"
-var Show_AdMobAd_TimePerFinishGame = 3
+var Show_AdMobAd_TimePerFinishGame = 1
 
 
 
